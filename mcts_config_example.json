@@ -1,0 +1,37 @@
+{
+  "c_puct": 0.8,
+  "max_simulations": 50,
+  "max_depth": 8,
+  "simulation_timeout": 30,
+  "reward_weights": {
+    "completeness": 0.4,
+    "path_quality": 0.25,
+    "answer_relevance": 0.2,
+    "efficiency": 0.1,
+    "diversity": 0.05
+  },
+  "action_scores": {
+    "search_base": 0.6,
+    "neighbors_base": 0.5,
+    "shared_neighbors_base": 0.4,
+    "answer_base": 0.0
+  },
+  "simulation": {
+    "temperature_base": 1.0,
+    "min_temperature": 0.1,
+    "max_temperature": 2.0,
+    "early_answer_threshold": 0.7
+  },
+  "optimization": {
+    "max_cells_retrieved": 10,
+    "max_neighbors_explored": 8,
+    "enable_caching": true,
+    "parallel_actions": false
+  },
+  "debug": {
+    "verbose_search": false,
+    "log_rewards": false,
+    "save_search_tree": false,
+    "track_node_visits": true
+  }
+}

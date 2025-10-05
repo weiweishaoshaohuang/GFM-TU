@@ -1,0 +1,15 @@
+mcts_test_results_*.json
+*.md
+*.txt
+images
+*.pkl
+dataset/hitab/tables
+*.zip
+__pycache__
+.idea
+mcts_tuning_result*.json
+train_samples.jsonl
+trigger_word_hmtqa.json
+stop_words.json
+dev_samples.jsonl
+
