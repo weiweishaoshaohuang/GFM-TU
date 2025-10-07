@@ -161,7 +161,10 @@ max_neighbors_explored = 8
 
 ## 📊 基准结果（摘要）
 
-在 HiTab 与 AIT-QA 上，**MCTS+VM** 相对强基线与消融设定（CoT、MCTS-启发式）呈现稳定的小幅提升（多数设置约 **0.6–2.0 个百分点**），并表现出更低的结果方差与更一致的推理路径。完整数据与设置示例见报告“表 3-3、表 3-4”。
+在 HiTab 与 AIT-QA 上，**MCTS+VM** 相对强基线与消融设定（CoT、MCTS-启发式）呈现稳定的小幅提升，并表现出更低的结果方差与更一致的推理路径。完整数据与设置示例见报告“表 3-3、表 3-4”。
+<img width="865" height="109" alt="image" src="https://github.com/user-attachments/assets/0103bfaa-6ade-469f-b38d-8e09691c5a0a" />
+<img width="865" height="317" alt="image" src="https://github.com/user-attachments/assets/c7a1fe14-6ef9-4146-a489-a9dd80b094ae" />
+<img width="865" height="419" alt="image" src="https://github.com/user-attachments/assets/e91c2070-350d-43cc-b914-13ab23eee251" />
 
 ---
 
